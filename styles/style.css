@@ -1,0 +1,195 @@
+header {
+  background-color: rgb(187, 186, 189);
+  display: flex;
+  justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 1%;
+  padding-top: 5%;
+  padding-right: 20px;
+  width: 100%;
+  height: 10%; 
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+a {
+  text-decoration: none;
+  font-size: 100%;
+  padding-right: 20px;
+  color: rgb(26, 26, 24);
+}
+
+body {
+  background-color: white;
+}
+
+
+
+
+.bird {
+    height: 15px;
+  position: absolute;
+  top: 24%;
+  animation-duration: 10s; 
+  animation-iteration-count: infinite;
+}
+
+.bird-left {
+  left: 100px; 
+  animation-name: fly-left;
+}
+
+.bird-right {
+  right: 100px; 
+  animation-name: fly-right;
+}
+
+@keyframes fly-left {
+  0% {
+    left: 0px; 
+  }
+  100% {
+    left: 100%; 
+  }
+}
+
+@keyframes fly-right {
+  0% {
+    right: 0px; 
+  }
+  100% {
+    right: 100%;
+  }
+}
+
+.bird {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px; 
+  box-shadow:     
+      0  2px rgba(242, 241, 244, 0.5),
+      0  2px rgba(185, 173, 212, 0.5);
+}
+
+
+
+
+
+
+
+
+.maneSeqtion2 {
+  position: absolute;
+  color: rgb(15, 15, 7);
+  top: 48%;
+  right: 5%;
+  font-family: '3D-Unicode', sans-serif;
+  font-size: 300%;
+
+  
+}
+h1 {
+  font-size: 38px;
+  color: rgb(178, 162, 237)
+}
+h2 {
+  color: rgb(169, 169, 35);
+  margin-top: 15%;
+  font-size: 42px;
+
+}
+.maneSeqtion1 {
+  margin-right: 0px;
+  margin-bottom: 1px;
+  margin-top: 0%;
+  background-color: white;
+  height: 150px;
+  width:100%
+  
+}
+h1, h2 {
+  font-family: "Single Day", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+ 
+}
+body {
+  background-color: rgb(244, 241, 246);
+  width: 100%;
+  padding: 0%;
+}
+.artivlmisia{
+  display: flex;
+  justify-content: space-between;
+}
+
+.asideemisia2 {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+  color: #282e28;
+  background-color: white;
+padding-top: 100px;
+padding-left: 30%;
+padding-right: 10%;
+padding-bottom: 100px;
+}
+table {
+  width: 100%;
+  border-collapse: separate; 
+  border-spacing: 0; 
+}
+
+th, td {
+  border: 50px solid rgb(229, 236, 229); 
+  padding: 10px; 
+  background-color: rgb(241, 248, 244);
+}
+span {
+ font-size: 300%;
+  color: rgb(37, 41, 70);
+}
+
+.xel {
+  transform: rotate(20deg);
+}
+
+
+
+
+
+
+.footerDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 200px;
+}
+.fut {
+  color: #1d0404;
+  font-size: 100%;
+  padding: 3%;
+  padding-left: 1%;
+  padding-right: 18%;
+  padding-bottom: 100px;
+}
+footer {
+  background-color: rgb(175, 168, 168);
+}
+.fut1 {
+  color: #1d0404;
+  font-size: 100%;
+  padding: 3%;
+  padding-left: 1%;
+  padding-right: 8%;
+  padding-bottom: 100px;
+}

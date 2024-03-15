@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(237, 230, 230);
+}
+
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+a {
+  text-decoration: none;
+}
+
+h1 {
+  border-bottom-style: double;
+  border-bottom-width: 5px;
+ border-bottom-color: brown;
+
+}
+
+#h1 {
+  width: 30%;
+  text-align: center;
+ padding-left:  35%;
+ padding-top: 5%;
+}
+
+h2 {
+  border-bottom-style: double;
+  border-bottom-width: 5px;
+ border-bottom-color: brown; 
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 8%;
+  padding-top: 5%;
+}
+
+
+#zogadiInf {
+  width: 70%;
+  text-align: center;
+ padding-left:  1%;
+ padding-top: 5%;
+
+}
+
+#dagvikavshird {
+  width: 70%;
+  text-align: center;
+ padding-right: 0%;
+ padding-top: 5%;
+
+}
+
+
+
+.div1 {
+  background-color: rgb(245, 245, 245);
+  padding-left: 5%;
+    box-shadow: 0px 4px 6px rgba(135, 22, 22, 0.1), 
+                0px 8px 16px rgba(255, 255, 255, 0.1), 
+                0px 16px 32px rgba(22, 168, 78, 0.2); 
+  }
+
+  .div2 {
+    background-color: rgb(245, 245, 245);
+    padding-left: 5%;
+      box-shadow: 0px 4px 6px rgba(135, 22, 22, 0.1), 
+                  0px 8px 16px rgba(255, 255, 255, 0.1), 
+                  0px 16px 32px rgba(22, 168, 78, 0.2); 
+    
+    
+  }
+  
+
+  #send {
+    background-color: yellow;
+    color: green;
+    border: none; 
+    border-radius: 10px 40px 40px 10px;
+    padding: 10px 30px; 
+    transition: background-color 0.3s, color 0.3s; 
+  }
+  
+  #send:hover {
+    background-color: green; 
+    color: yellow; 
+  }
+  
+  #send span {
+    transition: transform 0.3s; 
+  }
+  
+  
+
+
+
+
+
+.footerDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 200px;
+}
+.fut {
+  color: #1d0404;
+  font-size: 100%;
+  padding: 3%;
+  padding-left: 1%;
+  padding-right: 18%;
+  padding-bottom: 100px;
+}
+footer {
+  background-color: rgb(120, 118, 118);
+}
+.fut1 {
+  color: #1d0404;
+  font-size: 100%;
+  padding: 3%;
+  padding-left: 1%;
+  padding-right: 8%;
+  padding-bottom: 100px;
+}
