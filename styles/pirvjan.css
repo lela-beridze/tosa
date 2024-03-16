@@ -1,6 +1,7 @@
 header {
   background-color: whitesmoke;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   position: -webkit-sticky;
   position: sticky;
@@ -14,6 +15,7 @@ header {
 }
 nav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -41,6 +43,7 @@ span {
 
 .main-content {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .main-content2 {
@@ -71,6 +74,7 @@ h2 {
 
 .footerDiv {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
   height: 200px;
